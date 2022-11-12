@@ -1,0 +1,35 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+  }
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+  }
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+  }
+
+h4, button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+  }
+ button:hover
+  {
+    background-color: red;
+    color: white;
+    cursor: pointer
+  }
+  
+  
