@@ -39,7 +39,7 @@ h4 {
 #game {
     height: 100%;
     width: 100%;
-    background: url(https://i.imgur.com/Quq8Xmn.jpg);
+    background: url(https://i.imgur.com/4iu4ATA.png);
     display: flex;
     flex-direction: row; 
     justify-content: center;
@@ -64,6 +64,7 @@ button {
     padding: 150px 200px;
     border-radius: 25px;
     border-color: red;
+    padding: 10px;
   }
 
 .button {
