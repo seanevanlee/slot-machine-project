@@ -28,11 +28,11 @@ h4 {
   };
 
 .christmasPresent {
-    height: 100px;
+    height: 150px;
     background:white;
-    width: 100px;
-    margin: 10px;
-    border-radius: 10px;
+    width: 150px;
+    margin: 130px;
+    border-radius: 50%;
     align-items: center;
   }
 
@@ -44,20 +44,18 @@ h4 {
     flex-direction: row; 
     justify-content: center;
     align-items: center;
-    background-repeat: repeat;
-  }
+}
 
-  
 .christmasPresents {
     display: flex;
   }
   
 .christmasPresent {
-    height: 100px;
+    height: 150px;
     background:white;
-    width: 100px;
-    margin: 50px;
-    border-radius: 20px;
+    width: 125px;
+    margin: 200px;
+    border-radius: 50%;
     align-items: center;
   }
   
@@ -69,11 +67,14 @@ button {
   }
 
 .button {
-    margin: auto;
+    margin: 0;
     background-color:#0a0a23;
     color: #fff;
     text-align: center;
+    border-color: red blue purple green;
+    border-width: auto;
 }
+
 .button:hover {
     background-color:green;
     transition: 0.7s;
