@@ -32,7 +32,6 @@ const christmasPresentsEls = {
 // use that to grab a random value from the array
 // once completed, you should see each square has an emoji on the webpage
 init() // this is calling a function
-// from the RPS tutorial, here's the reset JS. COME BACK TO THIS LATER:
 function init(){
 christmasPresentsEls.slot1.innerText = getRandom()
 christmasPresentsEls.slot2.innerText = getRandom()
@@ -41,3 +40,15 @@ christmasPresentsEls.slot3.innerText = getRandom()
 
 
 // create a play button that generates 3 at random. event listener to play button
+
+// document.getElementById("button").addEventListener("click here", getrandom());
+
+const button = document.querySelector('button');
+button.addEventListener('click', playChristmas);
+
+// document.getElementById("Is Christmas coming early? Click here to find out!!').addEventListener('click',playChristmas);
+
+function playChristmas(e){
+    console.log('Happy Holidays');
+
+}
