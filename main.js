@@ -1,12 +1,29 @@
 const emojiArray = [
     '⛄',
     '🎅',
-    '🪨',
+    '🦌',
 ];
 
+const christmasRulesLookUp = {
+    snowman: {
+        image: '⛄'
+        all: 'wins'
+    },
+    santa: {
+        image:'🎅'
+        all: 'wins'
+    },
+    reindeer: {
+        image:'🦌'
+        all: 'wins'
+    }
+}
 // random selector array
-const random = Math.floor(math.random() * emojiArray.length);
-console.log(random, emojiArray[random]);
+const random = Math.floor(Math.random() * 3);
+console.log(random);
+
+// const random = Math.floor(math.random() * emojiArray.length);
+// console.log(random, emojiArray[random]);
 
 // reset function to start the game back up from scratch
 // onclick 

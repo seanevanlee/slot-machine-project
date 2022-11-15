@@ -18,6 +18,7 @@ JavaScript: Since the game is Christmas themed, I chose relevant emojis to make 
 ☐ Getting Started: In this section include the link to your deployed game and any instructions you deem important.
 
 ☐ Next Steps: 
+For this MVP, 3 emojis is managable though I can increase number to approximately 5 to make the game more difficult for the user.
 Smooth out the spinning feature for each slot box. 
 Add more sounds to keep the game exciting to the player.
 Make the jackpot a changing number.
