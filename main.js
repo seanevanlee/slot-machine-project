@@ -1,11 +1,15 @@
 // random selector array
-
-function getRandom(){
-    const emojiArray = [
+ const emojiArray = [
         '⛄',
         '🎅',
         '🦌',
     ]
+function getRandom(){
+    // const emojiArray = [
+    //     '⛄',
+    //     '🎅',
+    //     '🦌',
+    // ]
     const random = Math.floor(Math.random() * 3);
     // console.log(random);
     return emojiArray[random];
@@ -50,5 +54,8 @@ button.addEventListener('click', playChristmas);
 
 function playChristmas(e){
     console.log('Happy Holidays');
+christmasPresentsEls.slot1.innerText = getRandom();
+christmasPresentsEls.slot2.innerText = getRandom();
+christmasPresentsEls.slot3.innerText = getRandom();
 
 }
