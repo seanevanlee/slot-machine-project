@@ -11,9 +11,9 @@ Hopefully, you get to win the super jackpot so you can go on a shopping spree fo
 ☐ Technologies Used:
 HTML: The HTML was used to create the landing page for the slot machine as well as create a variety of headers and some buttons to make the game more interactive.
 
-CSS: I wanted to make my slot machine have Christmas colors.
+CSS: I wanted to make my slot machine have Christmas colors as well as be visually intuitive to the user.
 
-JavaScript: Since the game is Christmas themed, I chose relevant emojis to make things festive as well as created game rules to make only a certain condition the winning one.
+JavaScript: Since the game is Christmas themed, I chose relevant emojis to make things festive as well as created game rules to make only a certain condition the winning one. An array shows the available emojis with correct methods making sure that the emojis are drawn at random.
 
 ☐ Getting Started: In this section include the link to your deployed game and any instructions you deem important.
 
@@ -21,3 +21,4 @@ JavaScript: Since the game is Christmas themed, I chose relevant emojis to make 
 Smooth out the spinning feature for each slot box. 
 Add more sounds to keep the game exciting to the player.
 Make the jackpot a changing number.
+Other code that is scaleable to other holidays such as Valentines, 4th of July, etc.
