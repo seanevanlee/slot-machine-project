@@ -1,5 +1,5 @@
 # slot-machine-project
-Time to finally win the jackpot and become super rich.
+Time to finally win the jackpot and become super rich, but with a festive twist.
 
 <!-- A README.md file with these sections:
 
@@ -23,3 +23,4 @@ Smooth out the spinning feature for each slot box.
 Add more sounds to keep the game exciting to the player.
 Make the jackpot a changing number.
 Other code that is scaleable to other holidays such as Valentines, 4th of July, etc.
+Will likely want to incorporate mobiile-first design though I imagine the majority of users would want to play a slot machine on a full browser?

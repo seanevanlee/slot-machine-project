@@ -1,3 +1,5 @@
+alert("Christmas is on a Sunday this year\nBut for you, maybe it's early?");
+
 // random selector array
  const emojiArray = [
         '⛄',
@@ -50,12 +52,36 @@ christmasPresentsEls.slot3.innerText = getRandom()
 const button = document.querySelector('button');
 button.addEventListener('click', playChristmas);
 
+const resetButton = document.querySelector('#reset');
+resetButton.addEventListener('click', init);
+
 // document.getElementById("Is Christmas coming early? Click here to find out!!').addEventListener('click',playChristmas);
 
 function playChristmas(e){
-    console.log('Happy Holidays');
-christmasPresentsEls.slot1.innerText = getRandom();
-christmasPresentsEls.slot2.innerText = getRandom();
-christmasPresentsEls.slot3.innerText = getRandom();
+    // console.log('Happy Holidays');
+    christmasPresentsEls.slot1.innerText = getRandom();
+    christmasPresentsEls.slot2.innerText = getRandom();
+    christmasPresentsEls.slot3.innerText = getRandom();
+
+// if (condition) {
+//     statement
+// }
+// else if (somethingElse) {
+//     statement2
+// }
+const winner = '🎅';
+let spins = {
+    player: 0,
+}
+
+if (christmasPresentsEls.slot1 === christmasPresentsEls.slot2 && christmasPresentsEls.slot1 === christmasPresentsEls.slot3 && christmasPresentsEls.slot2 === christmasPresentsEls.slot3) {
+    document.getElementById("") = "Santa thought you were nice this year"
+    console.log('Get your milk and cookies');
+} else {
+    display = "Please try again"
+    console.log('The Grinch stole Christmas! Please go again.');
+}
+spins.player += 1
+
 
 }

@@ -46,9 +46,9 @@ h4 {
     align-items: center;
 }
 
-#present1, #present2, #present3 {
+/* #present1, #present2, #present3 {
 
-}
+} */
 .christmasPresents {
     display: flex;
   }
