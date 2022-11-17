@@ -1,8 +1,6 @@
 # slot-machine-project
 
-asdknaskjldakljsdkljasdljk Time to finally win the jackpot and become super rich, but with a festive twist.
-
----
+asdasdaskjldaksdroundagain Time to finally win the jackpot and become super rich, but with a festive twist.
 
 SLOT MACHINE JACKPOT!!!
 Hopefully, you get to win the super jackpot so you can go on a shopping spree for the holidays.
