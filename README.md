@@ -11,15 +11,21 @@ Hopefully, you get to win the super jackpot so you can go on a shopping spree fo
 
 User Stories:
 
-1. As a player, I want to see what the jackpot is so I am excited to play
-   a. I also want to see a distinct signal when I get all 3 to match
+1. As a player, I want to see what the jackpot is so I am excited to play. I also want to see a distinct signal when I get all 3 to match
 2. As a player, I want there to be a few result types so that the game is challenging
-3. As a player, the button to press to get the machine started should be obviously shown
-   a. Minimal learning curve for a simple single player game
+3. As a player, the button to press to get the machine started should be obviously shown. A minimal learning curve for a simple single player game is ideal.
 
 ## <!-- Screenshot(s): Images of your actual game. -->
 
 ![Alert Feature](https://i.imgur.com/30yOvCd.png)
+
+![Blank Starting Page](https://i.imgur.com/Jobxa9V.png)
+
+![Winning Page](https://i.imgur.com/CEV0GQe.png)
+
+![Losing Page](https://i.imgur.com/x8WY7C4.png)
+
+![Back to Resetted](https://i.imgur.com/KPcImnX.png)
 
 Technologies Used:
 HTML: The HTML was used to create the landing page for the slot machine as well as create a variety of headers and some buttons to make the game more interactive. Hopefully, the audio puts the user in the winning mood!
