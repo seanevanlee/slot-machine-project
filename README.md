@@ -11,7 +11,7 @@ User Stories: 1. As a player, I want to see what the jackpot is so I am excited 
 a. I also want to see a distinct signal when I get all 3 to match 2. As a player, I want there to be a few result types so that the game is challenging 3. As a player, the button to press to get the machine started should be obviously shown
 a. Minimal learning curve for a simple single player game
 
-<!-- Screenshot(s): Images of your actual game. -->
+<!-- Screenshot(s): Images of your actual game. test test -->
 
 ---
 
