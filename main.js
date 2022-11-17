@@ -31,6 +31,7 @@ function init(){
     resultMessage.innerText = ""
     const audio = document.getElementById('audio2');
     audio.play();
+    render();
 }
 
 
@@ -39,11 +40,8 @@ function play() {
     const audio = document.getElementById('audio');
     audio.play();
     slot1.innerText = getRandom()
-    // slot1.innerText = '🎅'
     slot2.innerText = getRandom()
-    // slot2.innerText = '🎅'
     slot3.innerText = getRandom()
-    // slot3.innerText = '🎅'
     if ((slot1.innerText === slot2.innerText) && (slot1.innerText === slot3.innerText) && (slot1.innerText === '🎅')) {
         console.log('Get your milk and cookies');
         resultMessage.innerText = 'Get your milk and cookies!'
@@ -51,9 +49,10 @@ function play() {
         console.log('The Grinch stole Christmas! Please go again.');
         resultMessage.innerText = 'The Grinch stole Christmas! Please go again.'
     }
-    render()
+    
   }
 
+<<<<<<< HEAD
 //   At the end of every controller function, call render to update the newly state visually on the DOM page
   function render(){
 
@@ -61,4 +60,12 @@ function play() {
     slot2.innerText = slot2;
     slot3.innerText = slot3;
     resultMessage.innerText = resultMessage;
+=======
+//   After init, call render to update the newly state visually on the DOM page
+  function render(){
+    slot1.innerText = ""
+    slot2.innerText = ""
+    slot3.innerText = ""
+    resultMessage.innerText = ""
+>>>>>>> main
   }

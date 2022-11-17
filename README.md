@@ -1,7 +1,5 @@
 # slot-machine-project
 
-https://seanevanlee.github.io/slot-machine-project/
-
 Time to finally win the jackpot and become super rich, but with a festive twist.
 
 ---
@@ -9,19 +7,24 @@ Time to finally win the jackpot and become super rich, but with a festive twist.
 SLOT MACHINE JACKPOT!!!
 Hopefully, you get to win the super jackpot so you can go on a shopping spree for the holidays.
 
-User Stories:
+User Stories: 1. As a player, I want to see what the jackpot is so I am excited to play
+a. I also want to see a distinct signal when I get all 3 to match 2. As a player, I want there to be a few result types so that the game is challenging 3. As a player, the button to press to get the machine started should be obviously shown
+a. Minimal learning curve for a simple single player game
 
-1. As a player, I want to see what the jackpot is so I am excited to play
-   a. I also want to see a distinct signal when I get all 3 to match
-2. As a player, I want there to be a few result types so that the game is challenging
-3. As a player, the button to press to get the machine started should be obviously shown
-   a. Minimal learning curve for a simple single player game
+<!-- Screenshot(s): Images of your actual game. test test -->
 
-## <!-- Screenshot(s): Images of your actual game. -->
+![Alert](https://i.imgur.com/wIpUT58.png)
 
-![Alert Feature](/Users/seanevanlee/code/slot-machine-project/Alert.png)
+![Blank Start](https://i.imgur.com/jo6KIcb.png)
+
+![Loser] (https://i.imgur.com/4iAhYwH.png)
+
+![Winner] (https://i.imgur.com/bg54vAG.png)
+
+## ![Refresh] (https://i.imgur.com/gbEc12C.png)
 
 Technologies Used:
+
 HTML: The HTML was used to create the landing page for the slot machine as well as create a variety of headers and some buttons to make the game more interactive. Hopefully, the audio puts the user in the winning mood!
 
 CSS: I wanted to make my slot machine have Christmas colors as well as be visually intuitive to the user.
@@ -33,9 +36,15 @@ JavaScript: Since the game is Christmas themed, I chose relevant emojis to make 
 ---
 
 Next Steps:
+
 For this MVP, 3 emojis is managable though I can increase number to approximately 5 to make the game more difficult for the user.
-Smooth out the spinning feature for each slot box.
+
+Both create and smooth out the spinning feature for each slot box.
+
 Add more sounds to keep the game exciting to the player.
+
 Make the jackpot a changing number and add a score counter.
+
 Other code that is scaleable to other holidays such as Valentines, 4th of July, etc.
+
 Will likely want to incorporate mobiile-first design though I imagine the majority of users would want to play a slot machine on a full browser?
