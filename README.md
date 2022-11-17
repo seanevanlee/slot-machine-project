@@ -15,7 +15,7 @@ User Stories:
 2. As a player, I want there to be a few result types so that the game is challenging
 3. As a player, the button to press to get the machine started should be obviously shown. A minimal learning curve for a simple single player game is ideal.
 
-## <!-- Screenshot(s): Images of your actual game. -->
+Screenshots of the game:
 
 ![Alert Feature](https://i.imgur.com/30yOvCd.png)
 
@@ -28,6 +28,7 @@ User Stories:
 ![Back to Resetted](https://i.imgur.com/KPcImnX.png)
 
 Technologies Used:
+
 HTML: The HTML was used to create the landing page for the slot machine as well as create a variety of headers and some buttons to make the game more interactive. Hopefully, the audio puts the user in the winning mood!
 
 CSS: I wanted to make my slot machine have Christmas colors as well as be visually intuitive to the user.
@@ -39,9 +40,15 @@ JavaScript: Since the game is Christmas themed, I chose relevant emojis to make 
 ---
 
 Next Steps:
+
 For this MVP, 3 emojis is managable though I can increase number to approximately 5 to make the game more difficult for the user.
-Smooth out the spinning feature for each slot box.
+
+Both create and smooth out the spinning feature for each slot box.
+
 Add more sounds to keep the game exciting to the player.
+
 Make the jackpot a changing number and add a score counter.
+
 Other code that is scaleable to other holidays such as Valentines, 4th of July, etc.
+
 Will likely want to incorporate mobiile-first design though I imagine the majority of users would want to play a slot machine on a full browser?
