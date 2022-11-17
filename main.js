@@ -52,20 +52,10 @@ function play() {
     
   }
 
-<<<<<<< HEAD
 //   At the end of every controller function, call render to update the newly state visually on the DOM page
-  function render(){
-
-    slot1.innerText = slot1;
-    slot2.innerText = slot2;
-    slot3.innerText = slot3;
-    resultMessage.innerText = resultMessage;
-=======
-//   After init, call render to update the newly state visually on the DOM page
   function render(){
     slot1.innerText = ""
     slot2.innerText = ""
     slot3.innerText = ""
     resultMessage.innerText = ""
->>>>>>> main
   }
