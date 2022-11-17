@@ -1,17 +1,35 @@
 # slot-machine-project
 
-Time to finally win the jackpot and become super rich, but with a festive twist.
+Game-link: https://seanevanlee.github.io/slot-machine-project/
+
+SLOT MACHINE JACKPOT!!!
+Hopefully, you get to win the super jackpot so you can go on a shopping spree for the holidays. Time to finally win the jackpot and become super rich, but with a festive twist.
 
 ---
 
-SLOT MACHINE JACKPOT!!!
-Hopefully, you get to win the super jackpot so you can go on a shopping spree for the holidays.
+# Getting-Started
 
-User Stories: 1. As a player, I want to see what the jackpot is so I am excited to play
-a. I also want to see a distinct signal when I get all 3 to match 2. As a player, I want there to be a few result types so that the game is challenging 3. As a player, the button to press to get the machine started should be obviously shown
-a. Minimal learning curve for a simple single player game
+1. Open up the link here: https://seanevanlee.github.io/slot-machine-project/
+2. After acknowledging the alert, the player can start to play by hitting the top button.
+3. The player must get 3 Santas to win, there will be an alert signaling the win if achieved.
+4. If the player does not get 3 Santas to win, then there will be a different alert urging the player to continue.
+5. Keep playing until you get 3 Santas in a row and enjoy the holiday prize!
 
-<!-- Screenshot(s): Images of your actual game. test test -->
+---
+
+# User-Stories
+
+1. As a player, I want to be able to be able to see the matches that I currently have.
+2. As a player, I want a variety of emojis to make the game more challenging.
+3. As a player, I want the buttons to be intuitive
+4. As a player, I want another added feature than just slots to keep me engaged
+5. As a player, I want to see the jackpot amount so that I'm determined to win
+
+---
+
+# Game-Screenshots
+
+![Wireframe](https://i.imgur.com/to5urQT.png)
 
 ![Alert](https://i.imgur.com/wIpUT58.png)
 
@@ -21,9 +39,13 @@ a. Minimal learning curve for a simple single player game
 
 ![Winner] (https://i.imgur.com/bg54vAG.png)
 
-## ![Refresh] (https://i.imgur.com/gbEc12C.png)
+![Refresh] (https://i.imgur.com/gbEc12C.png)
 
-Technologies Used:
+---
+
+# Technologies Used:
+
+Front-end: HTML/CSS/JS
 
 HTML: The HTML was used to create the landing page for the slot machine as well as create a variety of headers and some buttons to make the game more interactive. Hopefully, the audio puts the user in the winning mood!
 
@@ -31,20 +53,12 @@ CSS: I wanted to make my slot machine have Christmas colors as well as be visual
 
 JavaScript: Since the game is Christmas themed, I chose relevant emojis to make things festive as well as created game rules to make only a certain condition the winning one. An array shows the available emojis with correct methods making sure that the emojis are drawn at random.
 
-<!-- Getting Started: -->
-
 ---
 
-Next Steps:
+# Next Steps
 
-For this MVP, 3 emojis is managable though I can increase number to approximately 5 to make the game more difficult for the user.
-
-Both create and smooth out the spinning feature for each slot box.
-
-Add more sounds to keep the game exciting to the player.
-
-Make the jackpot a changing number and add a score counter.
-
-Other code that is scaleable to other holidays such as Valentines, 4th of July, etc.
-
-Will likely want to incorporate mobiile-first design though I imagine the majority of users would want to play a slot machine on a full browser?
+1. Increase the amount of emojis available as well as slots
+2. Add more CSS such as the slots' spinning motion
+3. Make the game more audibly enjoyable such as by adding more Christmas music
+4. Add a score tracker so the player knows how many tries it took to achieve the winning condition
+5. Make the game more mobile friendly

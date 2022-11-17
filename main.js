@@ -35,7 +35,7 @@ function init(){
 }
 
 
-// The play function below tells the game to make a sound when the button is clicked as well as display different messages in the console.log. Using the transitive property, we can set the slots' logic (the lines commented out) to win only if Santa appears on all 3 spots. The HTML at the top will change as it was assigned a HTML ID and a innerText property.
+// The play function below tells the game to make a sound when the button is clicked as well as display different messages in the console.log. Using the transitive property, we can set the slots' logic (the lines commented out) to win only if Santa appears on all 3 spots. The HTML at the top will change as it was assigned a HTML ID and a innerText property.  If the initial condition isn't met with 3 Santas, then the statement will go down to the second statement asking the player to try again.
 function play() {
     const audio = document.getElementById('audio');
     audio.play();
