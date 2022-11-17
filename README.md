@@ -19,7 +19,7 @@ User Stories:
 
 ## <!-- Screenshot(s): Images of your actual game. -->
 
-![Alert Feature](https://imgur.com/30yOvCd)
+![Alert Feature](https://i.imgur.com/30yOvCd.png)
 
 Technologies Used:
 HTML: The HTML was used to create the landing page for the slot machine as well as create a variety of headers and some buttons to make the game more interactive. Hopefully, the audio puts the user in the winning mood!
