@@ -1,90 +1,63 @@
-// a welcome alert upon opening the browser link
+// A welcome alert upon opening the browser link. We'll continue to use meaningful descriptions when given the opportunity for variable names, array names, etc
 alert("Christmas is on a Sunday this year\nBut for you, maybe it's early?");
 
-// random selector array, 3 sounds like a manageable number
+// The random array below shows that we have 3 emojis to choose from and they will remain the same hence the "const".
  const emojiArray = [
         '⛄',
         '🎅',
         '🦌',
     ]
 
-// create a way to get one of the 3 emojis, it doesn't matter which so it keeps the game fun
+// We'll call this function below. Floor and random work together to return a random emoji from the array mentioned above. 
 function getRandom(){
-    // const emojiArray = [
-    //     '⛄',
-    //     '🎅',
-    //     '🦌',
-    // ]
     const random = Math.floor(Math.random() * 3);
-    // console.log(random);
     return emojiArray[random];
 };
 
 
-// use that each time the page is updating
-// reset function to start the game back up from scratch
-// onclick 
-// one for all 3 santas = you win (Santa is the winning emoji)
-// one for not = you lose (3 of snowmen or 3 of reindeer get you nothing)
-// for loop to run through the game 5 times to try to win
-// const christmasPresentsEls = {
-//     slot1: document.querySelector('#present1'),
-//     slot2: document.querySelector('#present2'),
-//     slot3: document.querySelector('#present3'),
-// };
 
+// We'll say "let" below since the slots 1-3 are meant to change as the game goes on. We've already given the divs IDs in the HTML so we'll get 3 separate emojis on the page. A HTML banner will pop up towards the top of the page to signal win/loss.
 let slot1 = document.querySelector('#present1')
 let slot2 = document.querySelector('#present2')
 let slot3 = document.querySelector('#present3')
+let resultMessage = document.querySelector('#resultMessage')
 
 
-// next thing to do = Select each div with the div. Check the console as a reference
-// update the innerText to represent an array random value
-// div ids= present 1 , present 2, present 3
-// random variables give you an index
-// use that to grab a random value from the array
-// once completed, you should see each square has an emoji on the webpage
-init() // this is calling a function
+// Below, we'll call a function init which will act as the reset button, triggering a noise which is denoted by "audio2" so it's a different noise than the other button. The button will also set the innerText strings so the user can start fresh with no emojis and winning message showing up on the screen.
 function init(){
-slot1.innerText = getRandom()
-slot2.innerText = getRandom()
-slot3.innerText = getRandom()
-}
-
-
-// create a play button that generates 3 at random. event listener to play button
-// the play function below tells the game to make a sound when the button is clicked as well as display different messages in the console.log. 
-function play() {
-    const audio = document.getElementById("audio");
+    slot1.innerText = ""
+    slot2.innerText = ""
+    slot3.innerText = ""
+    resultMessage.innerText = ""
+    const audio = document.getElementById('audio2');
     audio.play();
-    if ((slot1.innerText === slot2.innerText) && (slot1.innerText === slot3.innerText) && (slot2.innerText === slot3.innerText)) {
-        // document.getElementById("") = "Santa thought you were nice this year"
-        console.log('Get your milk and cookies');
-    } else {
-        // display = "Please try again"
-        console.log('The Grinch stole Christmas! Please go again.');
-    }
-  }
-  
-const button = document.querySelector('button');
-button.addEventListener('click', playChristmas);
-
-const resetButton = document.querySelector('#reset');
-resetButton.addEventListener('click', init);
-
-// document.getElementById("Is Christmas coming early? Click here to find out!!').addEventListener('click',playChristmas);
-
-function playChristmas(e){
-    // console.log('Happy Holidays');
-    slot1.innerText = getRandom();
-    slot2.innerText = getRandom();
-    slot3.innerText = getRandom();
-
-
 }
 
 
+// The play function below tells the game to make a sound when the button is clicked as well as display different messages in the console.log. Using the transitive property, we can set the slots' logic (the lines commented out) to win only if Santa appears on all 3 spots. The HTML at the top will change as it was assigned a HTML ID and a innerText property.
+function play() {
+    const audio = document.getElementById('audio');
+    audio.play();
+    slot1.innerText = getRandom()
+    // slot1.innerText = '🎅'
+    slot2.innerText = getRandom()
+    // slot2.innerText = '🎅'
+    slot3.innerText = getRandom()
+    // slot3.innerText = '🎅'
+    if ((slot1.innerText === slot2.innerText) && (slot1.innerText === slot3.innerText) && (slot1.innerText === '🎅')) {
+        console.log('Get your milk and cookies');
+        resultMessage.innerText = 'Get your milk and cookies!'
+    } else {
+        console.log('The Grinch stole Christmas! Please go again.');
+        resultMessage.innerText = 'The Grinch stole Christmas! Please go again.'
+    }
+    render()
+  }
 
-// javascript to have everything start as blank (no emojis). emojis only pop up when the user hits play first.
-
-// dom lessions, function lessons
+  // At the end of every controller function, call render to update the newly state visually on the DOM page
+//   function render(){
+//     slot1.innerText = ""
+//     slot2.innerText = ""
+//     slot3.innerText = ""
+//     resultMessage.innerText = ""
+//   }

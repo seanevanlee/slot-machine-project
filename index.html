@@ -1,51 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Did The Grinch Steal Christmas?</title>
-<link rel="stylesheet" href="styles.css">
-<script defer src="main.js"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
     <h1>SLOT MACHINE JACKPOT!!!</h1>
-    <h2><b><u>GRAND PRIZE: MILK AND COOKIES</u></b></h2>
-    <h3>Has Santa thought you were nice? Don't get coal. 💀 3 Santas to win! 🎅🎅🎅</h3>
+    <h2>
+      <b><u>GRAND PRIZE: MILK AND COOKIES</u></b>
+    </h2>
+    <h3>
+      Has Santa thought you were nice? Don't get coal. 💀 3 Santas to win!
+      🎅🎅🎅
+    </h3>
+    <h1 id="resultMessage"></h1>
     <main>
-     <div id="game">
+      <div id="game">
         <div class="christmasPresents">
+          <div class="christmasPresent">
+            <div id="present1" class="presents"></div>
+          </div>
 
-        <div class="christmasPresent">
-             <div id="present1" class="presents"> 
-            </div>
-        </div>
-        
-        <div class="christmasPresent">
-            <div id="present2" class="presents">
-            </div>
-        </div>
+          <div class="christmasPresent">
+            <div id="present2" class="presents"></div>
+          </div>
 
-        <div class="christmasPresent">
-            <div id="present3" class="presents">
-            </div>
-        </div> 
-</main>
-<br>
-<div style="text-align:center;">
-<button onclick="playChristmas">
-  <input class="button" type="button" value="Is Christmas coming early? Click here to find out!!" onclick="play()">
-  <audio id="audio" src="https://www.mboxdrive.com/cash-register-purchase-87313.mp3"></audio>
-</button>
-<br>
-<button id ="reset">
-    <input class="button" type="button" value="Try your luck again with Santa's help!" onclick="play()">
-    <audio id="audio2" src="http://soundfxcenter.com/holiday-and-festive/christmas/8d82b5_Santa_Claus_Hohoho_Sound_Effect.mp3"></audio>
-</button id ="reset">
-</div>
-</br>
-</body>
-<footer>
-Merry Christmas ya filthy animal!
-</footer>
+          <div class="christmasPresent">
+            <div id="present3" class="presents"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <br />
+    <div style="text-align: center">
+      <button>
+        <input
+          class="button"
+          type="button"
+          value="Is Christmas coming early? Click here to find out!!"
+          onclick="play()"
+        />
+        <audio
+          id="audio"
+          src="https://www.mboxdrive.com/cash-register-purchase-87313.mp3"
+        ></audio>
+      </button>
+      <br />
+      <button id="reset" class="button" onclick="init()">
+        Try your luck again with Santa's help!
+      </button>
+      <audio
+        id="audio2"
+        src="http://soundfxcenter.com/holiday-and-festive/christmas/8d82b5_Santa_Claus_Hohoho_Sound_Effect.mp3"
+      ></audio>
+    </div>
+    <br />
+    <footer>
+      <a href="https://www.youtube.com/watch?v=BzMCjFQIefg&ab_channel=jdtech09"
+        >Merry Christmas ya filthy animal!</a
+      >
+    </footer>
+  </body>
 </html>

@@ -1,91 +1,93 @@
 h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: green;
-    font-size: 70px;
-  }
-
-h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: red;
-  }
-
-h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: blue;
-  }
-
-h4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20px;
-  };
-
-.christmasPresent {
-    height: 150px;
-    background:white;
-    width: 150px;
-    margin: 130px;
-    border-radius: 50%;
-    align-items: center;
-  }
-
-#game {
-    height: 100%;
-    width: 100%;
-    background: url(https://i.imgur.com/4iu4ATA.png);
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+  font-size: 70px;
 }
 
-/* #present1, #present2, #present3 {
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
 
-} */
-.christmasPresents {
-    display: flex;
-  }
-  
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
 .christmasPresent {
-    height: 150px;
-    background:white;
-    width: 125px;
-    margin: 200px;
-    border-radius: 50%;
-    align-items: center;
-  }
-  
+  height: 150px;
+  background: white;
+  width: 150px;
+  margin: 130px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#game {
+  height: 100%;
+  width: 100%;
+  background: url(https://i.imgur.com/4iu4ATA.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.presents {
+  font-size: 100px;
+}
+
+.christmasPresents {
+  display: flex;
+}
+
+.christmasPresent {
+  height: 150px;
+  background: white;
+  width: 125px;
+  margin: 200px;
+  border-radius: 50%;
+  align-items: center;
+}
+
 button {
-    font-style: bold;
-    padding: 150px 200px;
-    border-radius: 25px;
-    border-color: red;
-    padding: 10px;
-  }
+  font-style: bold;
+  padding: 150px 200px;
+  border-radius: 25px;
+  border-color: red;
+  padding: 10px;
+}
 
 .button {
-    margin: 0;
-    background-color:#0a0a23;
-    color: #fff;
-    text-align: center;
-    border-color: red blue purple green;
-    border-width: auto;
+  margin: 0;
+  background-color: #0a0a23;
+  color: #fff;
+  text-align: center;
+  border-color: red blue purple green;
+  border-width: auto;
 }
 
 .button:hover {
-    background-color:green;
-    transition: 0.7s;
-    cursor: pointer;
+  background-color: green;
+  transition: 0.7s;
+  cursor: pointer;
 }
 
 footer {
-    text-align:center;
+  text-align: center;
 }
-  
