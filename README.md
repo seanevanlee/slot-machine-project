@@ -7,7 +7,7 @@ Hopefully, you get to win the super jackpot so you can go on a shopping spree fo
 
 ---
 
-# Getting-Started
+# Getting Started
 
 1. Open up the link here: https://seanevanlee.github.io/slot-machine-project/
 2. After acknowledging the alert, the player can start to play by hitting the top button.
@@ -17,17 +17,17 @@ Hopefully, you get to win the super jackpot so you can go on a shopping spree fo
 
 ---
 
-# User-Stories
+# User Stories
 
 1. As a player, I want to be able to be able to see the matches that I currently have.
 2. As a player, I want a variety of emojis to make the game more challenging.
-3. As a player, I want the buttons to be intuitive
-4. As a player, I want another added feature than just slots to keep me engaged
-5. As a player, I want to see the jackpot amount so that I'm determined to win
+3. As a player, I want the buttons to be intuitive.
+4. As a player, I want another added feature than just slots to keep me engaged.
+5. As a player, I want to see the jackpot amount so that I'm determined to win.
 
 ---
 
-# Game-Screenshots
+# Game Screenshots
 
 ![Wireframe](https://i.imgur.com/to5urQT.png)
 
@@ -35,11 +35,11 @@ Hopefully, you get to win the super jackpot so you can go on a shopping spree fo
 
 ![Blank Start](https://i.imgur.com/jo6KIcb.png)
 
-![Loser] (https://i.imgur.com/4iAhYwH.png)
+![Loser](https://i.imgur.com/4iAhYwH.png)
 
-![Winner] (https://i.imgur.com/bg54vAG.png)
+![Winner](https://i.imgur.com/bg54vAG.png)
 
-![Refresh] (https://i.imgur.com/gbEc12C.png)
+![Refresh](https://i.imgur.com/gbEc12C.png)
 
 ---
 
