@@ -62,3 +62,4 @@ JavaScript: Since the game is Christmas themed, I chose relevant emojis to make 
 3. Make the game more audibly enjoyable such as by adding more Christmas music
 4. Add a score tracker so the player knows how many tries it took to achieve the winning condition
 5. Make the game more mobile friendly
+6. Make the game compatible across all browsers such as audio files in Chrome
