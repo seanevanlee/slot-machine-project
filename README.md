@@ -1,4 +1,4 @@
-# slot-machine-project
+# $lot Machine
 
 Game-link: https://seanevanlee.github.io/slot-machine-project/
 
